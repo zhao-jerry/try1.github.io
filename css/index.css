@@ -1,0 +1,333 @@
+/*整体位于页面中间*/
+
+*{
+	margin: 0;padding: 0;
+}
+
+.body{
+	width:970px;
+	margin:0 auto;
+	background-color:gainsboro;
+	margin: 0 auto;
+	text-align:center;
+}
+ul{
+	list-style: none;
+}
+
+li{
+	list-style:none;
+}
+
+#logo{
+	background-color:#FFF;
+}
+#search{
+	background-color:#FFF;
+}
+
+
+/*将h1变为行内元素*/
+#syo{
+	display:inline;
+}
+
+/*logo名字div的大小*/
+#logo{
+	height:100px;
+	width:590px;
+}
+
+
+/*search名字div的大小*/
+#search{
+	height:100px;
+	width:380px;
+}
+
+.clear{
+	display: block;
+	overflow: hidden;
+}
+
+table{
+	border:0;
+}
+
+
+/*菜单栏的边框，元素，背景色等*/
+.menu{ 
+	border: 2px solid #aac; 
+	overflow: hidden; 
+	display:inline-block;
+	background-color: red;
+	line-height: 40px;
+	font-size: 16px;
+}
+/*菜单栏的所有ul左浮动*/
+.menu ul{
+	list-style: none;
+    margin: 0;
+    padding: 0;
+    float: left;
+}
+/*菜单栏的所有li浮动*/
+.menu li{
+	list-style: none;
+    margin: 0;
+    padding: 0;
+    float: left;
+}
+/*去掉a元素的下划线*/
+a{
+	 text-decoration: none;
+}
+/*二级菜单绝对定位，隐藏*/
+.menu ul li ul {
+    position: absolute;
+    visibility:hidden;
+}
+/*消除二级菜单浮动动性*/
+.menu ul li ul li {
+    float: none;
+}
+/*设置一级菜单每一项大小边框，背景等*/
+.menu ul li{
+    width: 161px;
+    line-height: 40px;
+    text-align: center;
+    display: block;
+	padding: 0 35px；
+	font-family: "黑体";
+}
+/*设置二级菜单每一项大小边框，背景等*/
+.menu ul li ul li a{
+	background-color:#630;
+    text-align: center;
+    border-top: none;
+    display: block;
+}
+/*二级菜单弹出方式以及a的点击反应*/
+.menu ul li:hover ul {
+    visibility:visible;
+	background-color:#630;
+}
+.menu ul li:hover{
+	background-color:#0F0;
+}
+.menu ul li a:hover{
+	color:#666;
+}
+.menu a:link{
+	color: #fff;
+}
+.menu a:visited{
+	color: #fff;
+}
+.menu a:active{
+	color: deepskyblue;
+	font-weight: bold;
+}
+/* 二级菜单点击样式 */
+.menu ul li ul li a:hover {
+    color: #a4f;
+	background-color:#3C0;
+}
+
+/* 搜索框 */
+#search ul{
+	list-style: none;
+    margin: 50px 50px;
+    padding: 0;
+    float: left;
+}
+
+#search li{
+	list-style: none;
+    margin: 0;
+    padding: 0;
+    float: left;
+}
+
+/*滚动图片格式*/
+#mainImg{
+	width:966px;
+	height:700px;
+}
+
+/*头的样式*/
+.top div{
+	float: left;
+}
+.top ul{
+	float: right;
+}
+
+.top{
+	line-height: 34px;
+	background-color:#e9e7ef;
+	width:966px;
+	height:34px;
+}
+.top ul li{
+	float: left;margin-left: 8px;
+	padding:0 8px 0 12px ;
+	list-style:none;
+}
+
+/*头的点击样式*/
+.top a:link{
+	color: #333;
+}
+.top a:visited{
+	color: #333;
+}
+.top a:hover{
+	color: red;
+}
+.top a:active{
+	color: blue;font-weight: bold;
+}
+
+/*main主要部分格式*/
+.main {
+	background-color: gainsboro;
+}
+
+
+
+.main .main-left{
+	float: left;width: 200px;
+	margin-right: 5px;
+	background-color: white;
+	margin-top: 10px;
+	margin-left: 1px;
+}
+.main .main-right{
+	float: left;
+	width: 748px;
+	border: 1px solid red;
+	margin-left: 5px;
+	background-color: white;
+	margin-top: 10px;
+	margin-left: 1px;
+}
+
+.main .main-right .left{
+	float: left;
+	width: 355px;
+	margin: 8px ;
+	color: chocolate;
+	background-color: white;
+}
+
+.main .main-right .right{
+	float: left;
+	width: 355px;
+	margin: 8px ;
+	color: darkgreen;
+	background-color: white;
+}
+.main .main-right .bottle{
+	width: 730px;
+	margin: 8px ;
+	float: right;
+	background-color: white;
+}
+.main .main-right .left div{
+	width: 130px;
+	float: left;
+	margin: 18px ;
+}
+.main .main-right .right div{
+	width: 130px;
+	float: left;
+	margin: 18px ;
+}
+.main .main-right .bottle div{
+	float: left;
+	margin: 15px ;
+}
+.main .main-right h1{
+	text-align: center;
+}
+.main .main-right h5{
+	text-align: center;
+}
+.main .main-right {
+	background-color: gainsboro;
+}
+.main {
+	background-color: gainsboro;
+}
+		
+.company-01{
+	border: 1px solid #999;
+	padding: 10px;
+}
+.company-01 h1{
+	text-align: center;
+}
+.company-01 ul{
+	margin-top: 50px;
+}
+.company-01 ul li{
+	margin-top: 10px;
+}
+.company-01 ul li a{
+	display: block;
+	text-align:center;
+	width: 130px;
+	line-height: 30px;
+	color: #fff;
+	background-color: red;
+	margin: 20px auto;
+}
+
+img{
+	height:110px;
+	width:130px;
+}
+		
+.classify{
+	border: 1px solid #999;
+	margin-top: 10px;
+}
+.classify h1{
+	font-size: 14px;
+	text-align:center;
+	color: #fff;
+	background-color: red;
+	line-height: 30px;
+}
+.classify ul li a{
+	display: block;
+	font-weight: bold;
+	line-height: 30px;
+	text-align:center;
+}
+.classify ul li a:link{
+	color: #000;
+}
+.classify ul li a:visited{
+	color: #000;
+}
+.classify ul li a:hover{
+	color: #000;
+	background-color: #999;
+}
+.classify ul li a:active{
+	color: #000;
+}
+
+.bottom{
+	display: block;
+	height: 40px;
+	line-height: 40px;
+	width: 968px;
+	text-align: center;
+	background-color:#666;
+	color:#FFF;
+	font-size: 12px;
+	letter-spacing: 1px;
+}
